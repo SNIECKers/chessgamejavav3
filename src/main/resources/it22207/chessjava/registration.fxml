@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<GridPane fx:controller="it22207.chessjava.RegistrationController" xmlns:fx="http://javafx.com/fxml">
+    <VBox alignment="CENTER" spacing="10">
+        <Label text="Регистрация пользователя" />
+        <TextField fx:id="usernameField" promptText="Имя пользователя" />
+        <PasswordField fx:id="passwordField" promptText="Пароль" />
+        <Button text="Регистрация" onAction="#registerUser" />
+    </VBox>
+</GridPane>

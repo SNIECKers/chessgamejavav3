@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<BorderPane fx:controller="it22207.chessjava.LoginController" xmlns:fx="http://javafx.com/fxml" prefHeight="200.0" prefWidth="300.0">
+    <center>
+        <VBox spacing="10" alignment="center">
+            <Label text="Логин" />
+            <TextField fx:id="usernameField" />
+            <Label text="Пароль" />
+            <PasswordField fx:id="passwordField" />
+            <Button text="Войти" onAction="#handleLoginButtonAction" />
+            <Button text="Регистрация" onAction="#switchToRegistration" />
+            <Label fx:id="errorLabel" />
+        </VBox>
+    </center>
+</BorderPane>
