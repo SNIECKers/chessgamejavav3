@@ -384,7 +384,7 @@ public class Chessboard {
                         return false;
                     }
                 }
-                if(x == selectedPiece.getX() - 1 && 1 == abs(selectedPiece.getY() - y) && selectedPiece.getColor().equals("Black")) {
+                else if(x == selectedPiece.getX() - 1 && 1 == abs(selectedPiece.getY() - y) && selectedPiece.getColor().equals("Black")) {
                     if (board[x][y].getName().equals("None") || board[x][y].getColor().equals("Black")) {
                         return false;
                     }
